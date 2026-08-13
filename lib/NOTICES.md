@@ -8,6 +8,7 @@ Full text of the license used by every library below is included at the bottom o
 
 | Library on disk                       | Upstream repository                                                       | License |
 |---------------------------------------|---------------------------------------------------------------------------|---------|
+| `adafruit_ble/`                       | https://github.com/adafruit/Adafruit_CircuitPython_BLE                    | MIT     |
 | `adafruit_bitmap_font/`               | https://github.com/adafruit/Adafruit_CircuitPython_Bitmap_Font            | MIT     |
 | `adafruit_display_text/`              | https://github.com/adafruit/Adafruit_CircuitPython_Display_Text           | MIT     |
 | `adafruit_imageload/`                 | https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad              | MIT     |

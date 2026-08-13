@@ -1,6 +1,9 @@
 # Claude Code workspace state.
 .claude/
 
+# Superpowers brainstorm companion (local mockup server).
+.superpowers/
+
 # Local WiFi credentials — copy settings.toml.example and edit locally.
 settings.toml
 

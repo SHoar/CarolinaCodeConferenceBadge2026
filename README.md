@@ -52,6 +52,7 @@ public/
 │   └── CarolinaCodeConference.bmp
 │
 ├── lib/                      CircuitPython libraries the samples import.
+│   ├── adafruit_ble/         BLE advertise + scan (Social Radar)
 │   ├── adafruit_bitmap_font/
 │   ├── adafruit_display_text/
 │   ├── adafruit_imageload/
@@ -72,6 +73,7 @@ public/
     ├── LEDLab/               Pattern + palette + speed demo across 16 patterns.
     ├── MorseCode/            Tap Morse code on SW1 and it decodes live on the display.
     ├── Nameplate/            Conference nameplate — large font name + LED patterns.
+    ├── SocialRadar/          Nameplate plus BLE hallway radar — greet nearby badges.
     ├── Weather/              WiFi weather app (ZIP → forecast + LED dashboard).
     └── WiFiScanner/          Live WiFi scanner + signal-strength meter.
 ```
