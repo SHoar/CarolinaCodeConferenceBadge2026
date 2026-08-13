@@ -5,7 +5,7 @@ Status: approved
 
 ## Goal
 
-A launcher sample that is a walking nameplate first and a BLE “who am I walking near” radar second. Worn 9am–4pm on conference days. Personalized hallway greetings for anyone running the same sample, with extra-special treatment for a local VIP list (the other RV.NUG officers).
+A launcher sample that is a walking nameplate first and a BLE “who am I walking near” radar second. Worn 9am–4pm on conference days. Personalized hallway greetings for anyone running the same sample, with extra-special treatment for a local VIP list (array of names).
 
 Stock badges are invisible. “Every attendee” is an adoption goal: the protocol is name-only and documented so copying one folder plus two `settings.toml` lines is enough to join.
 
@@ -66,11 +66,11 @@ RADAR_VIPS = "Alex,Pat"
 
 Nameplate lines are constants at the top of `samples/SocialRadar/code.py` (same style as the stock Nameplate sample), defaulted for this wearer:
 
-- Display name: Sean Hoar
-- Role: Officer · RV.NUG
-- Hometown: Roanoke, VA
-- URL: seanhoar.com
-- Note: CCC 2026 · 2nd time
+- Display name: FIRSTNAME LASTNAME
+- Role: Role
+- Hometown: HOMETOWN
+- URL: URL
+- Note: NOTE
 
 Anyone who copies the sample edits those constants for themselves. They are never placed in BLE packets.
 
@@ -82,11 +82,11 @@ Portrait 128×160, `auto_refresh=False`, explicit `display.refresh()`, backlight
 
 Identity card, not giant two-line name:
 
-- Note line (CCC 2026 · 2nd time)
-- Sean Hoar
-- Officer · RV.NUG
-- Roanoke, VA
-- seanhoar.com
+- Note line (NOTE)
+- FIRSTNAME LASTNAME
+- Role
+- HOMETOWN
+- URL
 - Button hint: `S1 LED  S3 radar`
 
 ### Radar
@@ -170,4 +170,4 @@ Before the conference, with at least two badges (or one badge plus nRF Connect):
 
 ## Success criteria
 
-Sean can wear the badge as a nameplate all day, flip to radar with SW3, see `Hello, {name}` for people running this sample, get a gold salute when another RV.NUG officer is in walking range, and last a 9am–4pm day on CR123A without WiFi. A stranger can join from the README in a few minutes.
+Sean can wear the badge as a nameplate all day, flip to radar with SW3, see `Hello, {name}` for people running this sample, get a gold salute when another VIP (friend or colleague) is in walking range, and last a 9am–4pm day on CR123A without WiFi. A stranger can join from the README in a few minutes.
